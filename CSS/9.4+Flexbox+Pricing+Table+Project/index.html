@@ -8,13 +8,67 @@
       href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       body {
         font-family: "Sono", sans-serif;
       }
 
+      .pricing-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        height: 100vh;
+      }
+
+      .pricing-plan {
+        flex: 1;
+        max-width: 400px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        text-align: center;
+        padding: 30px;
+      } 
+
+      .plan-title {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .plan-price {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .plan-features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .plan-features li {
+        margin-bottom: 20px;
+      }
+    
+      .plan-button {
+       padding: 10px;
+       color: #fff;
+       background-color: #FE6500;
+       border-radius: 5px;
+       border: none;
+      }
+
+
+
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container {
+          flex-direction: column;
+          height: 100%;
+        }
       }
     </style>
   </head>
