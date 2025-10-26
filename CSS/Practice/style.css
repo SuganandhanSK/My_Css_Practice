@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: black;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: orangered;
+}
+
+#navbarSupportedContent a {
+    color: white;
+    border-bottom: 2px;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+#navbarSupportedContent button {
+    background: orangered;
+    border-radius: 10px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/***Home***/
+
+#home {
+    background: url(bg.jfif);
+    background-size: cover;
+    background-position: center;
+}
