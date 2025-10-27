@@ -56,7 +56,74 @@ section {
 /***Home***/
 
 #home {
-    background: url(bg.jfif);
+    background: linear-gradient(rgba(0,0,0,.7) , rgba(0,0,0,.5)) , url(spices/bg.jpg);
     background-size: cover;
     background-position: center;
+    flex-direction: column;
+    
+}
+
+#home h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 2000;
+    letter-spacing: 5px;
+    text-shadow: 0px 1px 0px black,
+                 0px 2px 0px black,
+                 0px 3px 0px black,
+                 0px 4px 0px black,
+                 0px 5px 0px black,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+}
+
+#home p {
+    font-size: 20px;
+    color: white;
+    
+}
+
+#home .input-group {
+    width: 35%;
+    height: 40px;
+}
+
+.singin {
+    background: orangered;
+    color: white;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .5);
+}
+
+
+/***About***/
+
+#about {
+    background: linear-gradient(to right , #4C1C0B , #936450);
+}
+
+#about h1 {
+    font-weight: 1000;
+    font-size: 50px;
+    margin-top: 250px;
+    
+}
+
+#about p {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+
+/***Products***/
+
+
+#products {
+    background: #e5e5e5;
+}
+
+#products h1{
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: 3px;
 }
