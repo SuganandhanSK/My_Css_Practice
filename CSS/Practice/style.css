@@ -90,7 +90,8 @@ section {
 
 .singin {
     background: orangered;
-    color: white;
+    color: black;
+    font-weight: bold;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, .5);
 }
 
@@ -104,7 +105,7 @@ section {
 #about h1 {
     font-weight: 1000;
     font-size: 50px;
-    margin-top: 250px;
+    margin-top: 50px;
     
 }
 
@@ -126,4 +127,65 @@ section {
     font-size: 50px;
     font-weight: 1000;
     letter-spacing: 3px;
+}
+
+#products img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .8),
+                inset 4px 4px 10px ;
+    border-radius: 20px;
+    overflow: hidden;
+   justify-content: center;
+    align-items: center;
+    margin: 25px 50px;
+}
+
+.card:hover{
+     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .8),
+                inset -4px -4px 10px ;
+    transition: .2s;
+}
+
+
+/***Contact***/
+
+
+#contact img {
+   height: 100%;
+}
+
+.box {
+    width: 80%;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input {
+    margin: 10px 0px;
+}
+
+#contact textarea {
+    margin: 10px 0px;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, .8);
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    padding: 3px;
 }
